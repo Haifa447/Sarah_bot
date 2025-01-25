@@ -1,4 +1,7 @@
 # Sarah_bot
 mkdir sarah-bot
 cd sarah-bot
-git init
+python -m venv sarahbotenv
+source sarahbotenv/bin/activate   # For macOS/Linux
+sarahbotenv\Scripts\activate      # For Windows
+
